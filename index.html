@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Page grobio sur l'univers des courses du quotidien, site qui permet de commander des produits, homemade-web follow your dreams!"
+    />
+    <title>grobio website design</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/icones/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/icones/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/icones/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/icones/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./images/icones/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="header-1">
+        <a href="#" class="logo"
+          ><i class="fas fa-shopping-basket"></i>grobio</a
+        >
+
+        <form action="" class="search-box-container">
+          <input
+            type="search"
+            id="search-box"
+            placeholder="votre recherche..."
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+      </div>
+
+      <div class="header-2">
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <a href="#home">Accueil</a>
+          <a href="#category">categories</a>
+          <a href="#product">produits</a>
+          <a href="#deal">Bonnes affaires</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-user-circle"></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="image">
+        <img src="images/home-img.png" alt="" />
+      </div>
+
+      <div class="content">
+        <span>frais & Bio</span>
+        <h3>vos produits du quotidien</h3>
+        <a href="#" class="btn">Commencer</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner section starts  -->
+
+    <section class="banner-container">
+      <div class="banner">
+        <img src="images/banner-1.jpg" alt="" />
+        <div class="content">
+          <h3>offre spéciale</h3>
+          <p>jusqu’à 45% de réduction</p>
+          <a href="#" class="btn">C'est parti!</a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="images/banner-2.jpg" alt="" />
+        <div class="content">
+          <h3>offre limitée</h3>
+          <p>jusqu’à 50% de réduction</p>
+          <a href="#" class="btn">C'est parti!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category" id="category">
+      <h1 class="heading">acheter par <span>catégorie</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>légumes</h3>
+          <p>jusqu’à 50% de réduction</p>
+          <img src="images/category-1.png" alt="" />
+          <a href="#" class="btn">acheter maintenant</a>
+        </div>
+        <div class="box">
+          <h3>jus</h3>
+          <p>jusqu’à 44% de réduction</p>
+          <img src="images/category-2.png" alt="" />
+          <a href="#" class="btn">acheter maintenant</a>
+        </div>
+        <div class="box">
+          <h3>viande</h3>
+          <p>jusqu’à 30% de réduction</p>
+          <img src="images/category-3.png" alt="" />
+          <a href="#" class="btn">acheter maintenant</a>
+        </div>
+        <div class="box">
+          <h3>fruits</h3>
+          <p>jusqu’à 12% de réduction</p>
+          <img src="images/category-4.png" alt="" />
+          <a href="#" class="btn">acheter maintenant</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- product section starts  -->
+
+    <section class="product" id="product">
+      <h1 class="heading">nouvelles<span> arrivées</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-1.png" alt="" />
+          <h3>bananes bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-45%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-2.png" alt="" />
+          <h3>tomates bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-52%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-3.png" alt="" />
+          <h3>oranges bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-4.png" alt="" />
+          <h3>lait bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-5.png" alt="" />
+          <h3>raison bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-29%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-6.png" alt="" />
+          <h3>amandes bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-55%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-7.png" alt="" />
+          <h3>pommes bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-30%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-8.png" alt="" />
+          <h3>beurre bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-40%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-9.png" alt="" />
+          <h3>carottes bio</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">10.50€ <span> 13.20€ </span></div>
+          <div class="quantity">
+            <span>quantité : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">ajouter au panier</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal" id="deal">
+      <div class="content">
+        <h3 class="title">Promotions du jour</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          possimus voluptates commodi laudantium! Doloribus sint voluptatibus
+          quaerat sequi suscipit nulla?
+        </p>
+
+        <div class="count-down">
+          <!-- <div class="box">
+            <h3 id="day">00</h3>
+            <span>jour</span>
+          </div> -->
+          <div class="box">
+            <h3 id="hour">00</h3>
+            <span>heure</span>
+          </div>
+          <div class="box">
+            <h3 id="minute">00</h3>
+            <span>minutes</span>
+          </div>
+          <div class="box">
+            <h3 id="second">00</h3>
+            <span>secondes</span>
+          </div>
+        </div>
+
+        <a href="#" class="btn">check la promotion</a>
+      </div>
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>nous</span> contacter</h1>
+
+      <form>
+        <div class="inputBox">
+          <input type="text" placeholder="nom" />
+          <input type="email" placeholder="email" />
+        </div>
+
+        <div class="inputBox">
+          <input type="number" placeholder="téléphone" />
+          <input type="text" placeholder="sujet" />
+        </div>
+
+        <textarea
+          placeholder="message"
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <input type="submit" value="Envoi" class="btn" />
+      </form>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- newsletter section starts  -->
+
+    <section class="newsletter">
+      <h3>S'incrire aux dernières infos</h3>
+
+      <form>
+        <input class="box" type="email" placeholder="entrer votre email" />
+        <input type="submit" value="s'inscrire" class="btn" />
+      </form>
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="logo"
+            ><i class="fas fa-shopping-basket"></i>grobio</a
+          >
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+            culpa sit enim nesciunt rerum laborum illum quam error ut alias!
+          </p>
+          <div class="share">
+            <a href="https://github.com/Oliive33" class="btn fab fa-github"></a>
+            <a
+              href="https://www.instagram.com/oliive33/"
+              class="btn fab fa-instagram"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/olivier33/"
+              class="btn fab fa-linkedin"
+            ></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Nos boutiques</h3>
+          <div class="links">
+            <a href="#">USA</a>
+            <a href="#">france</a>
+            <a href="#">japon</a>
+            <a href="#">canada</a>
+            <a href="#">Vietnam</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Liens</h3>
+          <div class="links">
+            <a href="#">Accueil</a>
+            <a href="#">categories</a>
+            <a href="#">produits</a>
+            <a href="#">Bonnes affaires</a>
+            <a href="#">contact</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Télécharger app</h3>
+          <div class="links">
+            <a href="#">google play</a>
+            <a href="#">app store</a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit"><span> Oliive33 </span> | Follow your dreams!</h1>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
