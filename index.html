@@ -74,11 +74,62 @@
         </nav>
 
         <div class="icons">
-          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" id="cart-btn" class="fas fa-shopping-cart"></a>
           <a href="#" class="fas fa-heart"></a>
-          <a href="#" class="fas fa-user-circle"></a>
+          <a href="#" id="login-btn" class="fas fa-user-circle"></a>
         </div>
       </div>
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-1.jpg" alt="" />
+          <div class="content">
+            <h3>produit bio</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">8.99€</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-2.jpg" alt="" />
+          <div class="content">
+            <h3>produit bio</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">8.99€</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-3.jpg" alt="" />
+          <div class="content">
+            <h3>produit bio</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">8.99€</span>
+          </div>
+        </div>
+        <h3 class="total">total : <span>19.99€</span></h3>
+        <a href="#" class="btn">Procéder au paiement</a>
+      </div>
+
+      <form class="login-form">
+        <h3>Se connecter</h3>
+        <input type="email" placeholder="entrer votre email" class="box" />
+        <input
+          type="password"
+          placeholder="entrer votre mot de passe"
+          class="box"
+        />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">se souvenir de moi</label>
+        </div>
+        <input type="submit" value="Connexion" class="btn" />
+        <p>mot de passe oublié? <a href="#">cliquer ici</a></p>
+        <p>Pas encore de compte? <a href="#">créer un compte</a></p>
+      </form>
     </header>
 
     <!-- header section ends -->
@@ -534,6 +585,7 @@
     <!-- footer section ends -->
 
     <!-- custom js file link  -->
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
